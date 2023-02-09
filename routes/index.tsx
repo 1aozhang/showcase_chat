@@ -69,6 +69,7 @@ export default function Main({ url, data }: PageProps<{ rooms: RoomView[] }>) {
               src="/logo.svg"
               alt="Deno Logo"
             />
+            <!--
             <span class="block text-3xl font-bold text-black mb-3">
               Deno Chat
             </span>
@@ -114,6 +115,7 @@ export default function Main({ url, data }: PageProps<{ rooms: RoomView[] }>) {
               </a>{" "}
               on Deno Deploy.
             </span>
+            -->
           </div>
           {data
             ? (
