@@ -69,53 +69,6 @@ export default function Main({ url, data }: PageProps<{ rooms: RoomView[] }>) {
               src="/logo.svg"
               alt="Deno Logo"
             />
-            <!--
-            <span class="block text-3xl font-bold text-black mb-3">
-              Deno Chat
-            </span>
-            <span class="block text-lg -mb-1.5">
-              A minimal chat platform template.
-            </span>
-            <span class="block text-lg">
-              It uses{" "}
-              <a
-                class="font-bold underline"
-                href="https://fresh.deno.dev"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                Fresh
-              </a>
-              {" + "}
-              <a
-                class="font-bold underline"
-                href="https://supabase.com"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                Supabase
-              </a>
-              {" + "}
-              <a
-                class="font-bold underline"
-                href="https://twind.dev/"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                twind
-              </a>
-              {" + "}
-              <a
-                class="font-bold underline"
-                href="https://developer.mozilla.org/en-US/docs/Web/API/Broadcast_Channel_API"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                Broadcast Channel API
-              </a>{" "}
-              on Deno Deploy.
-            </span>
-            -->
           </div>
           {data
             ? (
