@@ -134,7 +134,6 @@ export default function Main({ url, data }: PageProps<{ rooms: RoomView[] }>) {
                 </a>
               </div>
             )}
-          <Footer />
         </div>
       </div>
     </>
