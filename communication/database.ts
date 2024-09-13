@@ -154,7 +154,8 @@ export const databaseLoader = new ResourceLoader<Database>({
     const sql = postgres(getEnvOrThrow("SUPABASE_POSTGRES_URI"), {
       keep_alive: false, // Otherwise required '--unstable' flag.
       //ssl: { caCerts: [caCert] },
-      ssl: false,
+      //ssl: false,
+      ssl: { rejectUnauthorized: false },
     });
     await sql`
       create table if not exists users (
